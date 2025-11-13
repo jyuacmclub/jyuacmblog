@@ -14,13 +14,13 @@ new:
     name: 随笔
   note:
     description: 具有深度，经过深思熟虑的长篇作品
-    name: 文记
+    name: 笔记
   open:
     error: 无法打开 VS Code
     message: 使用 VS Code 打开此文件？
   preface:
     description: 生活近况、网站公告或创作理念
-    name: 序文
+    name: 前言
     start: 在此开始你的创作……
   preview: 这是将在 {path} 创建的内容
   step:

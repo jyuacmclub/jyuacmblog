@@ -20,14 +20,16 @@ jobs:
         uses: actions/setup-node@v6
         with:
           node-version: 24
-
+      # 安装pnpm
+      - name: Install pnpm
+        run: npm install -g pnpm
+        
       # 下载依赖、打包项目
       - name: Install and Build
         run: |
           pnpm install
           pnpm build
-      - name: Install pnpm
-        run: npm install -g pnpm
+      
 
       # 部署到服务器
       - name: Upload to Deploy Server

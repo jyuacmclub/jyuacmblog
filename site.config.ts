@@ -2,7 +2,7 @@ import siteConfig from "./src/utils/config";
 
 const config = siteConfig({
 	title: "嘉应学院ACM算法协会Blog",
-	prologue: "算法，不只是逻辑，更是艺术。",
+	prologue: "算法，不只是逻辑，更是艺术。\n未来不是预见，而是创造。",
 	author: {
 		name: "lim342",
 		email: "",

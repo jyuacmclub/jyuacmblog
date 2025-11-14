@@ -86,6 +86,14 @@ const t = i18nit(locale);
 						</span>
 					)
 				}
+				{
+					note.data.author && (
+						<span>
+							<Icon name="lucide:user" />
+							{note.data.author}
+						</span>
+					)
+				}
 				<span><Icon name="lucide:pilcrow" />{t("read.words", { words: frontmatter.words })}</span>
 			</div>
 			<hr class="b-b b-b-solid b-weak" />

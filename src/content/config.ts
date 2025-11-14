@@ -17,7 +17,8 @@ const note = defineCollection({
 		sensitive: z.boolean().default(false), // Marks content as sensitive
 		toc: z.boolean().default(false), // Whether to show table of contents
 		top: z.number().int().nonnegative().default(0), // Top priority for sorting (higher is more important)
-		draft: z.boolean().default(false) // Draft status (excludes from public listing)
+		draft: z.boolean().default(false), // Draft status (excludes from public listing)
+		author: z.string().optional() // Author name (optional)
 	})
 });
 
@@ -35,7 +36,8 @@ const jotting = defineCollection({
 		description: z.string().optional(), // Brief description
 		sensitive: z.boolean().default(false), // Marks content as sensitive
 		top: z.number().int().nonnegative().default(0), // Top priority for sorting (higher is more important)
-		draft: z.boolean().default(false) // Draft status
+		draft: z.boolean().default(false), // Draft status
+		author: z.string().optional() // Author name (optional)
 	})
 });
 

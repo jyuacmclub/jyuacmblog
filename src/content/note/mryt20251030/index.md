@@ -94,5 +94,3 @@ for x in numbers:
     ans ^= x
 print(ans)
 ```
-
-

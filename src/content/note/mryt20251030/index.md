@@ -1,5 +1,5 @@
 ---
-title: MRYT
+title: 每日一题20251030 - 找筷子
 timestamp: 2025-11-14 17:03:19+08:00
 series: 每日一题
 tags: [位运算,异或]

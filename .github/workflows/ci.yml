@@ -24,7 +24,9 @@ jobs:
       # 安装pnpm
       # - name: Install pnpm
       #   run: npm install -g pnpm
-        
+      - name: Source ~/.bashrc
+        run: |
+          source ~/.bashrc
       # 下载依赖、打包项目
       - name: Install and Build
         run: |

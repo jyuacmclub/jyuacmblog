@@ -5,7 +5,7 @@ on:
     branches:
       - main
 jobs:
-  build-and-deploy:
+  build:
     # 构建环境使用 ubuntu
     # runs-on: ubuntu-latest
     runs-on: self-hosted
@@ -30,6 +30,10 @@ jobs:
         run: |
           pnpm install
           pnpm build
+
+  deploy:
+    runs-on: self-hosted
+    steps:
       - name: Clean output directory
         run: |
           rm -rf /home/ubuntu/fhb/jyuacmblog

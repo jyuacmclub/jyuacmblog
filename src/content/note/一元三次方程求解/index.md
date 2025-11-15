@@ -8,7 +8,6 @@ tags: [二分]
 
 ## 开始写作
 
-在此开始你的创作……
 
 P1024 [NOIP 2001 提高组] 一元三次方程求解
 [点击跳转](https://www.luogu.com.cn/problem/P1024)
